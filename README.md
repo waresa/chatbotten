@@ -2,7 +2,7 @@
 Dette prosjektet er et minimun viable produkt eller prototype for en ny AI drevet chatbot til kommunene Lillesand og Birkenes.
 
 ## Installasjon
-1. Klone dette repositoryet ved å kjøre git clone https://github.com/wares/chatbotten.git
+1. Klone dette repositoryet ved å kjøre git clone https://github.com/waresa/chatbotten.git
 2. Naviger til mappen med cd chatbotten
 3. Gå til klientmappen ved å kjøre cd ../client
 4. Installer klientavhengigheter ved å kjøre npm install
