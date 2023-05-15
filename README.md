@@ -7,6 +7,7 @@ Dette prosjektet er et minimun viable produkt eller prototype for en ny AI dreve
 3. Gå til klientmappen ved å kjøre cd ../client
 4. Installer klientavhengigheter ved å kjøre npm install
 5. I .env filen bytt ut din_openai_api_nøkkel og din_pinecone_api_nøkkel med de faktiske API-nøklene dine.
+6. Lag en ny mappe med navn uploads i server mappen.
 ## Kjøring
 1. Start serveren ved å kjøre cd server && "node index.js"
 2. Start klienten i en annen terminal ved å kjøre cd ../client && npm start
