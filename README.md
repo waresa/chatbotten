@@ -6,13 +6,14 @@ Dette prosjektet er et minimun viable produkt eller prototype for en ny AI dreve
 2. Naviger til mappen med "cd chatbotten"
 3. Gå til klientmappen ved å kjøre cd ../client
 4. Installer klientavhengigheter ved å kjøre "npm install"
-5. I .env filen bytt ut din_openai_api_nøkkel og din_pinecone_api_nøkkel med de faktiske API-nøklene dine.
+5. I .env filen bytt ut din_openai_api_nøkkel og din_pinecone_api_nøkkel med de faktiske API-nøklene dine (Sjekk under for å finne ut hvordan skaffe seg API-nøkkler).
 6. Lag en ny mappe med navn uploads i server mappen.
 ## Kjøring
 1. Start serveren ved å kjøre cd server && "node index.js"
 2. Start klienten i en annen terminal ved å kjøre cd ../client && npm start
 3. Åpne nettleseren din og naviger til http://localhost:3000 for å bruke applikasjonen.
 4. Vennligst merk at du må ha gyldige API-nøkler for å kunne kjøre applikasjonen og at du ikke skal distribuere eller publisere disse nøklene offentlig.
+5. Du må også lage databasen først for å klare å laste opp et dokument.
 ## Database Setup
 1. Gå til Pinecone-nettsiden: https://www.pinecone.io/.
 2. Opprett en konto eller logg inn på eksisterende konto.
